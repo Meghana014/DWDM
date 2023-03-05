@@ -25,8 +25,8 @@ public class Program2 {
 	   double bmean=(double)bsum/n;
 	   for(int i=0;i<n;i++)
 	   {
-		   d1+=(a[i]-amean)*(a[i]-amean);
-		   d2+=(b[i]-bmean)*(b[i]-bmean);
+		   d1+=(a[i]-amean)*(a[i]-amean);         //d1+=Math.pow(a[i]-amean,2);
+		   d2+=(b[i]-bmean)*(b[i]-bmean);         //d2+=Math.pow(b[i]-bmean,2);
 		   value+=(a[i]-amean)*(b[i]-bmean);
 	   }
 	   double sd1=0,sd2=0;
