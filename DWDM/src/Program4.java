@@ -18,7 +18,7 @@ public class Program4 {
 		  double mean=(double)sum/n;
 		  System.out.println("Mean is: "+mean);
 		  for(int i=0;i<n;i++)
-			  d+=(a[i]-mean)*(a[i]-mean);
+			  d+=(a[i]-mean)*(a[i]-mean);            //d+=Math.pow(a[i]-mean,2);
 		  sd=Math.sqrt(d/n);
 		  System.out.println("Standard deviation is: "+sd);
 		  for(int i=0;i<n;i++)
