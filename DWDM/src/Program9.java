@@ -24,9 +24,9 @@ public class Program9 {
 		
 	   for(int i=0;i<n;i++)
 	   {
-		   double a=(x[i]-x1)*(x[i]-x1)+(y[i]-y1)*(y[i]-y1);
+		   double a=(x[i]-x1)*(x[i]-x1)+(y[i]-y1)*(y[i]-y1);  //Math.pow(x[i]-x1,2)+Math.pow(y[i]-y1,2);
 		   k1=Math.sqrt(a);
-		   double b=(x[i]-x2)*(x[i]-x2)+(y[i]-y2)*(y[i]-y2);
+		   double b=(x[i]-x2)*(x[i]-x2)+(y[i]-y2)*(y[i]-y2); //Math.pow(x[i]-x2,2)+Math.pow(y[i]-y2,2);
 		   k2=Math.sqrt(b);
 		   if(a<b) 
 			   {
