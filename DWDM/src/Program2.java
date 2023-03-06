@@ -16,6 +16,7 @@ public class Program2 {
 		   a[i]=sc.nextInt();
 	       asum+=a[i];
 	   }
+	   System.out.println("enter elements of b:");
 	   for(int i=0;i<n;i++)
 	   {
 		   b[i]=sc.nextInt();
